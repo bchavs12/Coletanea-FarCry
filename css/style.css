@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+
+    --header-color: rgb(189, 18, 18);
+    --background: #484D50;
+    --footer-color: #171717;
+    --tittle-color: #ffc222;
+    --paragrafo-color: rgb(255, 255, 255);
+    --bordaicone: ;
+}
+
+html {
+    width: 100%;
+    height: auto;
+   
+}
+
+button{
+    /* talvez o background e o border interfira na hora de estilizar posteriormente */
+    
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    height: 5vh;
+    background-color:var(--header-color);
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    
+    gap: 20px;
+
+}
+
+
+/* Menu toggle mobile */
+
+.one,
+.two,
+.three {
+    background-color: #000;
+    height: 4px;
+    width: 100%;
+      
+} 
+
+.menu-toggle {
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+header div img{
+    height: 5vh;
+}
+
+
+/* index */
+
+#content{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}    
+
+.container-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card {
+    border-radius: 10px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.img-card {
+    width: 100%;
+    height: 350px;
+}
+
+
+#banner{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/header/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#banner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#banner h2{
+    align-self: flex-start;
+    font-size: 3rem;
+    color: var(--tittle-color);
+}
+
+#banner p{
+    font-size: 1.5rem;
+}
+
+#banner button{
+    width: 322px;
+    height: 71px;
+
+    border-radius: 10px;
+    border: solid var(--tittle-color) 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* Formulario */
+
+/* Details */
+#banner2 div img {
+    width: 100%;
+    height: 95vh;    
+}
+
+#iframefc5 iframe{
+    width: 778px;
+    height: 500px;
+    
+    border-radius: 12px;
+    
+}
+
+/* Footer */
+footer{
+    height: 364px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: var(--footer-color);
+    padding: 20px;
+}
+
+.conteiner-integrants{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    color: var(--paragrafo-color);
+    
+}
+
+.content-integrants h3{
+    font-size: 1,5rem;
+}
+
+.content-integrants p a{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.content-integrants{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-integrants div{
+    display: flex;
+    gap: 16px;
+}
+
+
+
+footer span{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    
+}

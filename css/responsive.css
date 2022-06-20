@@ -1,0 +1,19 @@
+@media (min-width: 768px){
+
+header nav{
+    display: block;
+}
+
+#btn-toggle{
+    display: none;
+}
+
+.container-card{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.conteiner-integrants{
+    flex-direction: row;
+    justify-content: space-between;
+}
+}

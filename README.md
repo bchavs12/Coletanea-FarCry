@@ -2,7 +2,7 @@
 
 ### Entrega 29 de junho de 2022
 
-# Participantes
+# Integrantes
 - Bruno Chaves Da Silveira
 - Daniel Oliveira da Silva
 - Pablo Leandro de Oliveira Gloria
