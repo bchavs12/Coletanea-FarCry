@@ -1,2 +1,17 @@
 
+nav ul li a:hover{
+    transition: .3s;
 
+    color: var(--tittle-color);
+
+}
+
+#banner button:hover{
+    background-color: var(--tittle-color);
+}
+
+.content-integrants div a:hover{
+    transition: 0.5s;
+
+    transform: scale(1.1);
+}

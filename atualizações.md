@@ -8,3 +8,12 @@
 
 ## Bruno
 - ArquivoNovo (.vscode adicionado para live server)
+
+
+# atualização 22/06
+
+## Dan
+
+- hover do nav e do footer.
+- algumas correções do footer na responsividade.
+- add do scroll suave( css html linha 18).

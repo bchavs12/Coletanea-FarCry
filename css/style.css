@@ -18,12 +18,12 @@
 html {
     width: 100%;
     height: auto;
+
+    scroll-behavior: smooth;
    
 }
 
 button{
-    /* talvez o background e o border interfira na hora de estilizar posteriormente */
-    
     cursor: pointer;
 }
 
@@ -156,6 +156,8 @@ header div img{
     width: 322px;
     height: 71px;
 
+    font-size: 2rem;
+
     border-radius: 10px;
     border: solid var(--tittle-color) 2px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -180,7 +182,6 @@ header div img{
 
 /* Footer */
 footer{
-    height: 364px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -229,9 +230,9 @@ footer{
 
 
 
-footer span{
+footer div span{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     padding: 20px;
-    
+    text-align: center;
 }
