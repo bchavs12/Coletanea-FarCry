@@ -85,38 +85,6 @@ header div img{
 
 /* index */
 
-#content{
-    padding: 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}    
-
-.container-card {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-
-.card {
-    border-radius: 10px;
-    width: 350px;
-   
-}
-
-.img-card {
-    width: 100%;
-    height: 350px;
-}
-
-
 #banner{
     width: 100%;
     height: 95vh;
@@ -163,6 +131,44 @@ header div img{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
+
+#content{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}    
+
+.container-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card {
+    border-radius: 10px;
+    width: 350px;
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   
+}
+
+.img-card {
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 
 /* Formulario */
 
