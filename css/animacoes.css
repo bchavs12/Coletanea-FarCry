@@ -1,17 +1,58 @@
-
+/* Header nav */
 nav ul li a:hover{
     transition: .3s;
 
-    color: var(--tittle-color);
+    color: var(--ancora-color);
 
 }
 
+/* logo */
+
+@keyframes rotateStars {
+    0%{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.stars_logo {
+    animation-name: rotateStars;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* Botão explorar do baner */
 #banner button:hover{
     background-color: var(--tittle-color);
 }
 
+/* buttons cards */
+.card button:hover{
+    transition: .8s;
+
+    background-color: green;
+    transform: scale(1.03)
+}
+
+/* Details */
+
+/* footer */
+
+/* Funcoes de cada integrante */
+.funcao:hover {
+    color: rebeccapurple;
+
+    transition: .3s;
+}
+
+/* icones footer */
 .content-integrants div a:hover{
     transition: 0.5s;
 
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
+

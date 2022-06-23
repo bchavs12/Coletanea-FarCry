@@ -17,3 +17,8 @@
 - hover do nav e do footer.
 - algumas correções do footer na responsividade.
 - add do scroll suave( css html linha 18).
+
+## Bruno - Dan
+### 22/06/22 commit 23:46
+- Organização dos cards
+- Animações e hover colocados
