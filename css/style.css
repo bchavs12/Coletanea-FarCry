@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
     --header-color: rgb(189, 18, 18);
     --background: rgb(245, 241, 239);
@@ -14,12 +14,13 @@
     --ancora-color: rebeccapurple;
     --paragrafo-color: rgb(255, 255, 255);
     --button-color: rgb(87, 206, 87);
+    --disable-color: grey;
 }
 
 html {
     width: 100%;
     height: auto;
-
+    
     scroll-behavior: smooth;
    
 }
@@ -39,12 +40,14 @@ ul{
 
 header{
     height: 5vh;
+    width: 100%;
     background-color:var(--header-color);
     padding: 30px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 header nav{
@@ -92,11 +95,13 @@ header div img{
 
 /* Banner */
 #banner{
+    margin-top: 60px;
     width: 100%;
     height: 95vh;
     background-image: url(../img/header/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     display: flex;
     flex-direction: column;
@@ -107,6 +112,7 @@ header div img{
     color: white;
     text-align: center;
     padding: 10px;
+    
 }
 
 #banner div{
@@ -155,6 +161,10 @@ header div img{
 }
 
 /* content cards */
+
+#content h3 {
+    color: var(--tittle-color);
+}
 
 .container-card {
     padding: 10px;
@@ -207,13 +217,16 @@ header div img{
     
 }
 
+.card button:disabled{
+    background-color: var(--disable-color);
 
-/* Login */
-.logo__login {
-    width: 150px;
-    height: auto;
+    cursor: not-allowed;
 }
 
+.card button a:disabled{
+    cursor: not-allowed;
+
+}
 
 /* Details */
 #banner2 div img {
@@ -226,12 +239,19 @@ header div img{
     height: 500px;
     
     border-radius: 12px;
-    
 }
 
 .destaq {
     color: red;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* login */
+
 
 /* Footer */
 footer{
@@ -255,11 +275,11 @@ footer{
     padding: 20px;
 
     color: var(--paragrafo-color);
-    
 }
 
 .content-integrants h3{
-    font-size: 1,5rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .content-integrants p a{
@@ -268,7 +288,6 @@ footer{
 }
 
 .content-integrants{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,7 +301,7 @@ footer{
 }
 
 
-footer div span{
+footer div{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     padding: 20px;

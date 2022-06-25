@@ -2,27 +2,15 @@
 nav ul li a:hover{
     transition: .3s;
 
-    color: var(--ancora-color);
+    color: var(--tittle-color);
 
 }
 
-/* logo */
-
-@keyframes rotateStars {
-    0%{
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(1turn);
-    }
-}
-
-.stars_logo {
-    animation-name: rotateStars;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+/* logo header */
+.stars_logo:hover {
+    transform: rotate(360deg);
     
+    transition: .8s;
 }
 
 /* Botão explorar do baner */
@@ -37,10 +25,20 @@ nav ul li a:hover{
     background-color: green;
     transform: scale(1.03)
 }
+.card button:disabled:hover{
+    background-color: var(--disable-color);
+}
 
 /* Details */
 
 /* footer */
+
+/* icones footer */
+.content-integrants div a:hover{
+    transition: 0.5s;
+    
+    transform: scale(1.2);
+}
 
 /* Funcoes de cada integrante */
 .funcao:hover {
@@ -49,10 +47,5 @@ nav ul li a:hover{
     transition: .3s;
 }
 
-/* icones footer */
-.content-integrants div a:hover{
-    transition: 0.5s;
 
-    transform: scale(1.2);
-}
 

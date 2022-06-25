@@ -22,3 +22,6 @@
 ### 22/06/22 commit 23:46
 - Organização dos cards
 - Animações e hover colocados
+
+## Atualização
+### 25/06/22 commit 20:10
