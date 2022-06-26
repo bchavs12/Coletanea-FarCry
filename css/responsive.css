@@ -16,6 +16,7 @@ header nav{
     flex-direction: row;
     justify-content: space-between;
 }
+
 }
 
 @media (min-width: 1520px){
@@ -23,5 +24,4 @@ header nav{
         width: 80%;
         gap: 40px;
     }
-
 }
