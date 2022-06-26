@@ -25,3 +25,8 @@
 
 ## Atualização
 ### 25/06/22 commit 20:10
+
+## Atualização 11:03 26/06/22
+- Estrutura Pag Details Finalizada
+- faltar colocar animações 
+- e replicar ela para os outros 5 jogos
