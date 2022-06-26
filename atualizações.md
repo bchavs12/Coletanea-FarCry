@@ -18,15 +18,15 @@
 - algumas correções do footer na responsividade.
 - add do scroll suave( css html linha 18).
 
-## Bruno - Dan
+# Bruno - Dan
 ### 22/06/22 commit 23:46
 - Organização dos cards
 - Animações e hover colocados
 
-## Atualização
+# Atualização
 ### 25/06/22 commit 20:10
 
-## Atualização 11:03 26/06/22
+# Atualização 11:03 26/06/22
 - Estrutura Pag Details Finalizada
 - faltar colocar animações 
 - e replicar ela para os outros 5 jogos
