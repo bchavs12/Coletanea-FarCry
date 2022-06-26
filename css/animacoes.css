@@ -31,6 +31,18 @@ nav ul li a:hover{
 
 /* Details */
 
+/* login */
+#btn:hover{
+    background-color: var(--header-color);
+}
+
+input:invalid:not(:focus):not(:placeholder-shown){
+    border: solid red 2px; 
+}
+
+input:valid{
+    border: solid green 2px; 
+}
 /* footer */
 
 /* icones footer */

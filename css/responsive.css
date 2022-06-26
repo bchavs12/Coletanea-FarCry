@@ -17,6 +17,10 @@ header nav{
     justify-content: space-between;
 }
 
+.login form{
+    width: 60%;
+}
+
 }
 
 @media (min-width: 1520px){
