@@ -43,6 +43,7 @@ input:invalid:not(:focus):not(:placeholder-shown){
 input:valid{
     border: solid green 2px; 
 }
+
 /* footer */
 
 /* icones footer */
