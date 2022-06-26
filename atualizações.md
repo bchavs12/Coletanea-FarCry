@@ -30,3 +30,9 @@
 - Estrutura Pag Details Finalizada
 - faltar colocar animações 
 - e replicar ela para os outros 5 jogos
+
+## Dan
+
+### Atualização 14:50 26/06/22
+
+- login pronto para análize.
