@@ -40,7 +40,7 @@ ul {
 header {
   height: 5vh;
   width: 100%;
-  background-color: var(--header-color);
+  background-color: #970e0e;
   padding: 30px;
 
   display: flex;
