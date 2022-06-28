@@ -21,6 +21,10 @@ header nav{
     width: 60%;
 }
 
+#container__info{
+    flex-direction: row;
+}
+
 }
 
 @media (min-width: 1520px){

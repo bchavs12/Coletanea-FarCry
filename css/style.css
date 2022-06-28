@@ -230,18 +230,6 @@ header div img {
   cursor: not-allowed;
 }
 
-/* Details */
-#banner2 div img {
-  width: 100%;
-  height: 100vh;
-}
-
-#iframefc5 iframe {
-  width: 77.8rem;
-  height: 70vh;
-
-  border-radius: 12px;
-}
 
 .destaq {
   color: red;
