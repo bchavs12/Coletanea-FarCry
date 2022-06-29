@@ -21,6 +21,10 @@ header nav{
     width: 60%;
 }
 
+#container {
+    margin: 32px 112px;
+  }
+
 #container__info{
     flex-direction: row;
 }

@@ -87,37 +87,37 @@ header div img {
 }
 
 /* Details */
-.bannerdetails{
-
+.bannerdetails {
   width: 100%;
   height: 100vh;
-  
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
-
-#banner-FC1{
+/* Banner Details attachment */
+#banner-FC1 {
   background-image: url(../img/cards/banner_FC1.jpg);
 }
 
-#banner-FC2{
+#banner-FC2 {
   background-image: url(../img/cards/banner_FC2.png);
 }
 
-#banner-FC3{
+#banner-FC3 {
   background-image: url(../img/cards/banner_FC3.png);
 }
 
-#banner-FC4{
+#banner-FC4 {
   background-image: url(../img/cards/banner_FC4.png);
 }
 
-#banner-F5{
+#banner-FC5 {
   background-image: url(../img/cards/banner_FC5.jpg);
 }
 
-#banner-FC6{
+#banner-FC6 {
   background-image: url(../img/cards/banner_FC6.png);
 }
 
@@ -134,7 +134,7 @@ main {
 }
 
 #container {
-  margin: 32px 112px;
+  margin: 30px;
 }
 
 .tittle_details {
@@ -157,7 +157,7 @@ main {
   font-weight: 400;
   line-height: 21px;
   color: #000000bf;
-
+  padding: 8px;
 }
 
 .iframefc iframe {

@@ -252,7 +252,7 @@ main {
   justify-content: center;
   gap: 20px;
 
-  background-image: url(../img/viloes.jpg);
+  background-image: url(../img/header/viloes.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
