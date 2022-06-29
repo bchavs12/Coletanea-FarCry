@@ -46,6 +46,10 @@
 - FC3, FC1, FC6, FC5  DETAILS CONCLUIDO
 - REVISAR TUDO HTML E CSS APÓS CONCLUSÃO.
 
-## Atualização 29/06/22
+### Atualização  06:30 29/06/22
 - coloquei destaq vermelho nas partes importantes dos texto dos details
 - ainda falta terminar
+
+### Atualização 19:23 29/06/22
+
+- Finalizado 

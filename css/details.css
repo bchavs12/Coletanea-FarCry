@@ -50,8 +50,8 @@ header nav {
 
 header nav ul {
   display: flex;
-
   gap: 20px;
+
 }
 
 nav ul li a {
@@ -59,6 +59,8 @@ nav ul li a {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+
+
 
   color: white;
 }

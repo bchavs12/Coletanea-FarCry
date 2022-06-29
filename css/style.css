@@ -303,7 +303,7 @@ main {
   height: 70px;
 
   border-radius: 10px;
-  border: solid var(--header-color) 3px;
+  border: solid var(--button-color) 3px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 
