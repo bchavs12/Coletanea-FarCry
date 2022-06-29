@@ -45,3 +45,7 @@
 - details: mais 2 paragrafos no FC2 E os diretores, produtor e escritor
 - FC3, FC1, FC6, FC5  DETAILS CONCLUIDO
 - REVISAR TUDO HTML E CSS APÓS CONCLUSÃO.
+
+## Atualização 29/06/22
+- coloquei destaq vermelho nas partes importantes dos texto dos details
+- ainda falta terminar
